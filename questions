@@ -1,0 +1,18 @@
+ #!/bin/bash
+
+#Simple if then statement
+
+read -p "Tell me your favorite color:" color
+read -p "Tell me your favorite ice cream flavor: "icecream
+read -p "Tell me your favorite pizza toppings: "pizza
+if [ $color = "green" ]
+then
+
+	echo "Nice! $color is a popular color with some nation's flag."
+elif [ $color = "red" ]
+then
+	echo "Nice! Fun fact, red is the color of the most popular condiment for hot dogs."
+elif [ $color = "blue" ]
+then 
+	echo "Nice! Did you know the sky really isn't $color afterall!"
+fi
